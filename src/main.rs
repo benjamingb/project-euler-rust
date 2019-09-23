@@ -1,3 +1,5 @@
+extern crate problems;
+
 fn main() {
-    println!("Hello, world!");
+    problems::p001::solve();
 }
