@@ -10,10 +10,5 @@ edition = "2018"
 name = "problems"
 path = "src/lib.rs"
 
-[[bench]]
-name = "problems"
-path = "src/lib.rs"
-harness = false
-
-
 [dependencies]
+termion = "*"
